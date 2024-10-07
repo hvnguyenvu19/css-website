@@ -1,0 +1,62 @@
+/* Skip Link Styles */
+.skip-link {
+    position: absolute;
+    top: -40px; /* Hidden off-screen */
+    left: 0;
+    background: #fff; /* Change as necessary */
+    z-index: 1000; /* High enough to be on top */
+}
+
+.skip-link:focus {
+    top: 0; /* Make it visible on focus */
+}
+
+/* Commented out existing li styles */
+li {
+    /* color: red; */ /* Example of existing style */
+}
+
+/* Navigation Styles */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Descendant Selector for Images in Nav */
+nav img {
+    width: 10%;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px; /* Adjust gap as needed */
+}
+
+.grid img {
+    width: 100%; /* Images in grid class */
+}
+
+/* Flex Styles */
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Adjust as needed */
+}
+
+/* Main Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Base font */
+    color: black; /* Change text color */
+    background-color: white; /* Change background color */
+}
+
+h1 {
+    color: #333; /* Example of header color */
+}
+
+p {
+    color: yellow; /* Just an example; can be changed */
+    background: black;
+}
